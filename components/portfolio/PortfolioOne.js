@@ -72,7 +72,7 @@ const PortfolioOne = ({bgColor = "bg-color-lightest"}) => {
                             ))}
                         </motion.div>
                         <div className="view-all-portfolio-button mt--60 text-center">
-                            <Link href="/portfolio">
+                            <Link legacyBehavior href="/portfolio">
                                 <a className="axil-button btn-large btn-transparent btn-xxl">
                                     <span className="button-text">Discover More Projects</span>
                                     <span className="button-icon"/>

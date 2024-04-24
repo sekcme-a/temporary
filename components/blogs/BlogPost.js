@@ -37,7 +37,7 @@ const BlogPost = ({post, postType = 'default'}) => {
                 <div className="axil-blog-list">
                     <div className="blog-top">
                         <h3 className="title">
-                            <Link href={`/blog/${post.slug}`}>{post.postdata.title}</Link>
+                            <Link legacyBehavior href={`/blog/${post.slug}`}>{post.postdata.title}</Link>
                         </h3>
                         <div className="author">
                             <div className="author-thumb">
@@ -60,7 +60,7 @@ const BlogPost = ({post, postType = 'default'}) => {
                         </div>
                     </div>
                     <div className="thumbnail">
-                        <Link href={`/blog/${post.slug}`}>
+                        <Link legacyBehavior href={`/blog/${post.slug}`}>
                             <a>
                                 <Image
                                     width={850}
@@ -75,7 +75,7 @@ const BlogPost = ({post, postType = 'default'}) => {
                     </div>
                     <div className="content">
                         <p>{post.postdata.excerpt}</p>
-                        <Link href={`/blog/${post.slug}`}>
+                        <Link legacyBehavior href={`/blog/${post.slug}`}>
                             <a className="axil-button btn-large btn-transparent">
                                 <span className="button-text">Read More</span>
                                 <span className="button-icon"/>
@@ -89,7 +89,7 @@ const BlogPost = ({post, postType = 'default'}) => {
                 <div className="axil-blog-list gallery-post">
                     <div className="blog-top">
                         <h3 className="title">
-                            <Link href={`/blog/${post.slug}`}>{post.postdata.title}</Link>
+                            <Link legacyBehavior href={`/blog/${post.slug}`}>{post.postdata.title}</Link>
                         </h3>
                         <div className="author">
                             <div className="author-thumb">
@@ -118,7 +118,7 @@ const BlogPost = ({post, postType = 'default'}) => {
                             <Slider {...settings}>
                                 {post.postdata.thumbnail.gallery.map((item, index) => {
                                     return (
-                                        <Link
+                                        <Link legacyBehavior
                                             href={`/blog/${post.slug}`}
                                             key={`gallery-item-${index}`}
                                         >
@@ -140,7 +140,7 @@ const BlogPost = ({post, postType = 'default'}) => {
 
                     <div className="content">
                         <p>{post.postdata.excerpt}</p>
-                        <Link href={`/blog/${post.slug}`}>
+                        <Link legacyBehavior href={`/blog/${post.slug}`}>
                             <a className="axil-button btn-large btn-transparent">
                                 <span className="button-text">Read More</span>
                                 <span className="button-icon"></span>
@@ -154,7 +154,7 @@ const BlogPost = ({post, postType = 'default'}) => {
                 <div className="axil-blog-list sticky-blog">
                     <div className="blog-top">
                         <h3 className="title">
-                            <Link href={`/blog/${post.slug}`}>{post.postdata.title}</Link>
+                            <Link legacyBehavior href={`/blog/${post.slug}`}>{post.postdata.title}</Link>
                         </h3>
                         <div className="info">
                             <div className="info d-flex align-items-center">
@@ -184,7 +184,7 @@ const BlogPost = ({post, postType = 'default'}) => {
                     <div className="blog-top">
                         <blockquote>
                             <h3 className="title">
-                                <Link href={`/blog/${post.slug}`}>{post.postdata.title}</Link>
+                                <Link legacyBehavior href={`/blog/${post.slug}`}>{post.postdata.title}</Link>
                             </h3>
                         </blockquote>
                         <div className="author">
@@ -217,7 +217,7 @@ const BlogPost = ({post, postType = 'default'}) => {
                 <div className="axil-blog-list">
                     <div className="blog-top">
                         <h3 className="title">
-                            <Link href={`/blog/${post.slug}`}>{post.postdata.title}</Link>
+                            <Link legacyBehavior href={`/blog/${post.slug}`}>{post.postdata.title}</Link>
                         </h3>
                         <div className="author">
                             <div className="author-thumb">
@@ -240,7 +240,7 @@ const BlogPost = ({post, postType = 'default'}) => {
                         </div>
                     </div>
                     <div className="thumbnail position-relative">
-                        <Link href={`/blog/${post.slug}`}>
+                        <Link legacyBehavior href={`/blog/${post.slug}`}>
                             <a>
                                 <Image
                                     width={850}
@@ -262,7 +262,7 @@ const BlogPost = ({post, postType = 'default'}) => {
                     </div>
                     <div className="content">
                         <p>{post.postdata.excerpt}</p>
-                        <Link href={`/blog/${post.slug}`}>
+                        <Link legacyBehavior href={`/blog/${post.slug}`}>
                             <a className="axil-button btn-large btn-transparent">
                                 <span className="button-text">Read More</span>
                                 <span className="button-icon"/>

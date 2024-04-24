@@ -43,7 +43,7 @@ const CaseStudy = () => {
                                     }`}
                                 >
                                     <div className="thumbnail">
-                                        <Link href={`/case-study/${slugify(caseStudy.title)}`}>
+                                        <Link legacyBehavior href={`/case-study/${slugify(caseStudy.title)}`}>
                                             <a>
                                                 <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
                                                     <Image
@@ -70,12 +70,12 @@ const CaseStudy = () => {
                                               {caseStudy.subtitle}
                                             </span>
                                             <h2 className="title">
-                                                <Link href={`/case-study/${slugify(caseStudy.title)}`}>
+                                                <Link legacyBehavior href={`/case-study/${slugify(caseStudy.title)}`}>
                                                     {caseStudy.title}
                                                 </Link>
                                             </h2>
                                             <p className="subtitle-2">{caseStudy.description}</p>
-                                            <Link href={`/case-study/${slugify(caseStudy.title)}`}>
+                                            <Link legacyBehavior href={`/case-study/${slugify(caseStudy.title)}`}>
                                                 <a className="axil-button btn-large btn-transparent">
                                                     <span className="button-text">Read Case Study</span>
                                                     <span className="button-icon"/>

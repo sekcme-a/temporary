@@ -15,7 +15,7 @@ const BannerFive = () => {
                                         data-aos-duration="1000">
                                         Technology <br/> & design studio
                                     </h1>
-                                    <Link href="/portfolio">
+                                    <Link legacyBehavior href="/portfolio">
                                         <a className="axil-button btn-large btn-transparent"
                                            data-aos="aos-fade-in-up"
                                            data-aos-duration="1000"

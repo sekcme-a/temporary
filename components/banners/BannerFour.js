@@ -26,7 +26,7 @@ const BannerFour = () => {
                                      data-aos="aos-fade-in-up"
                                      data-aos-duration="1000"
                                      data-aos-delay="400">
-                                    <Link href="/portfolio">
+                                    <Link legacyBehavior href="/portfolio">
                                         <a className="axil-button btn-large btn-solid btn-extra07-color">
                                             <span className="button-text">See Our Projects</span>
                                             <span className="button-icon"/>

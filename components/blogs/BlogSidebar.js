@@ -23,7 +23,7 @@ const BlogSidebar = ({ categories, tags, recentPost }) => {
           <ul className="category-list">
             {categories?.map((category, categoryIndex) => (
               <li key={`category-${categoryIndex}`}>
-                <Link href={`/blog/category/${category.slug}`}>
+                <Link legacyBehavior href={`/blog/category/${category.slug}`}>
                   {category.title}
                 </Link>
               </li>
@@ -78,7 +78,7 @@ const BlogSidebar = ({ categories, tags, recentPost }) => {
           {recentPost?.map((post, index) => (
             <div className="small-post" key={`recent-post-${index}`}>
               <div className="thumbnail flex-shrink-0">
-                <Link href={`/blog/${post.slug}`}>
+                <Link legacyBehavior href={`/blog/${post.slug}`}>
                   <a>
                     <Image width={100} height={80} src={post.postdata.thumbnail.large} alt="Blog Image" />
                   </a>
@@ -86,7 +86,7 @@ const BlogSidebar = ({ categories, tags, recentPost }) => {
               </div>
               <div className="content">
                 <h6>
-                  <Link href={`/blog/${post.slug}`}>
+                  <Link legacyBehavior href={`/blog/${post.slug}`}>
                     <a>{post.postdata.title}</a>
                   </Link>
                 </h6>
@@ -106,7 +106,7 @@ const BlogSidebar = ({ categories, tags, recentPost }) => {
           <ul className="tags-list">
             {tags?.map((tag, tagIndex) => (
               <li key={`tag-${tagIndex}`}>
-                <Link href={`/blog/tag/${tag.slug}`}>{tag.title}</Link>
+                <Link legacyBehavior href={`/blog/tag/${tag.slug}`}>{tag.title}</Link>
               </li>
             ))}
           </ul>

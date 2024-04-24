@@ -18,7 +18,7 @@ const TeamOne = () => {
                                 />
                             </div>
                             <div className="total-team-button">
-                                <Link href="/team">
+                                <Link legacyBehavior href="/team">
                                     <a>
                                         <span>20+</span>
                                     </a>
@@ -39,7 +39,7 @@ const TeamOne = () => {
                                     alignment="left"
                                 />
                                 <div className="axil-button-group mt--40">
-                                    <Link href="/team">
+                                    <Link legacyBehavior href="/team">
                                         <a className="axil-button btn-large btn-transparent">
                                             <span className="button-text">Our Team</span>
                                             <span className="button-icon"></span>

@@ -49,7 +49,7 @@ const BannerThree = () => {
                                         <span className="button-text">Latest Work On Dribbble</span>
                                         <span className="button-icon"/>
                                     </a>
-                                    <Link href="/about">
+                                    <Link legacyBehavior href="/about">
                                         <a className="axil-button axil-link-button">
                                             About Me
                                         </a>

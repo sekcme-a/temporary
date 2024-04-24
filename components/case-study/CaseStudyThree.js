@@ -39,7 +39,7 @@ const CaseStudyThree = () => {
                                       )}
                                     </span>
                                     <h4 className="title">
-                                        <Link href={`/projects/${slugify(CaseStudyData[6].title)}`}>
+                                        <Link legacyBehavior href={`/projects/${slugify(CaseStudyData[6].title)}`}>
                                             <a>
                                                 <SplitText>
                                                     {CaseStudyData[6].title}

@@ -36,7 +36,7 @@ const TestimonialCard = (
                     </div>
                     <div className="description">
                         <p className="subtitle-3">{data.description}</p>
-                        <Link href="#">
+                        <Link legacyBehavior href="#">
                             <a className="axil-link-button">
                                 Read Project Case Study
                             </a>

@@ -73,7 +73,7 @@ const PortfolioDetails = ({portfolio}) => {
                                                 __html: portfolio.description,
                                             }}
                                         />
-                                        <Link href="#">
+                                        <Link legacyBehavior href="#">
                                             <a className="axil-button btn-large btn-transparent">
                                                 <span className="button-text">Launch The Site </span>
                                                 <span className="button-icon"/>

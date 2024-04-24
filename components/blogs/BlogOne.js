@@ -35,7 +35,7 @@ const BlogOne = ({posts}) => {
                                         <div className="inner">
                                             <span className="category">Lifestyle</span>
                                             <h5 className="title">
-                                                <Link href={`/blog/${post.slug}`}>
+                                                <Link legacyBehavior href={`/blog/${post.slug}`}>
                                                     <a className="text-ellipsis">
                                                         {post.postdata.title.substring(0, 50)}
                                                     </a>

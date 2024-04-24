@@ -27,7 +27,7 @@ const BannerOne = () => {
                                     Create live segments and target the right people for
                                     <br/> messages based on their behaviors.
                                 </p>
-                                <Link href="/portfolio">
+                                <Link legacyBehavior href="/portfolio">
                                     <a className="axil-button btn-large btn-transparent"
                                        data-aos="aos-fade-in-up"
                                        data-aos-duration="1000"

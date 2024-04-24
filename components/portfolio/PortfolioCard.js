@@ -24,7 +24,7 @@ const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
             <div className="inner">
                 <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
                     <div className="thumb">
-                        <Link href={`/portfolio/${slugify(data.title)}`}>
+                        <Link legacyBehavior href={`/portfolio/${slugify(data.title)}`}>
                             <a>
                                 <Image
                                     width={400}
@@ -40,7 +40,7 @@ const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
                 <div className="port-overlay-info">
                     <div className="hover-action">
                         <h4 className="title">
-                            <Link href={`/portfolio/${slugify(data.title)}`}>
+                            <Link legacyBehavior href={`/portfolio/${slugify(data.title)}`}>
                                 <a>{data.title}</a>
                             </Link>
                         </h4>

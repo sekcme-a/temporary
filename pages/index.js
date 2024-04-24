@@ -87,7 +87,7 @@ export default function Home() {
                                     <div className="row align-items-center">
                                         <div className="col-lg-3 col-md-6 col-sm-6 col-12 header-left">
                                             <div className="logo">
-                                                <Link href="/">
+                                                <Link legacyBehavior href="/">
                                                     <a>
                                                         <Logo/>
                                                     </a>
@@ -266,7 +266,7 @@ export default function Home() {
                                 <div className="row row--40">
                                     <div className="col-lg-6 col-md-6 col-12">
                                         <div className="single-demo">
-                                            <Link href="/home-01">
+                                            <Link legacyBehavior href="/home-01">
                                                 <a>
                                                     <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
                                                         <div className="thumb box paralax-image">
@@ -291,7 +291,7 @@ export default function Home() {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-12">
                                         <div className="single-demo">
-                                            <Link href="/home-02">
+                                            <Link legacyBehavior href="/home-02">
                                                 <a>
                                                     <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
                                                         <div className="thumb box paralax-image">
@@ -316,7 +316,7 @@ export default function Home() {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-12">
                                         <div className="single-demo">
-                                            <Link href="/home-03">
+                                            <Link legacyBehavior href="/home-03">
                                                 <a>
                                                     <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
                                                         <div className="thumb box paralax-image">
@@ -341,7 +341,7 @@ export default function Home() {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-12">
                                         <div className="single-demo">
-                                            <Link href="/home-04">
+                                            <Link legacyBehavior href="/home-04">
                                                 <a>
                                                     <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
                                                         <div className="thumb box paralax-image">
@@ -366,7 +366,7 @@ export default function Home() {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-12">
                                         <div className="single-demo">
-                                            <Link href="/home-05">
+                                            <Link legacyBehavior href="/home-05">
                                                 <a>
                                                     <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
                                                         <div className="thumb box paralax-image">
@@ -391,7 +391,7 @@ export default function Home() {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-12">
                                         <div className="single-demo commin">
-                                            <Link href="#">
+                                            <Link legacyBehavior href="#">
                                                 <a href="#">
                                                     <div className="thumb box paralax-image">
                                                         <span className="animating-line"/>

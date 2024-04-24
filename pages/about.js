@@ -101,7 +101,7 @@ const About = () => {
                                           featured case study
                                         </span>
                                         <h2 className="title">
-                                            <Link href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
+                                            <Link legacyBehavior href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
                                                 <a>
                                                     Building software for world changers{" "}
                                                 </a>
@@ -114,7 +114,7 @@ const About = () => {
                                             placerat orci lobortis. Maecenas ipsum neque, elementum id
                                             dignissim et, imperdiet vitae mauris.
                                         </p>
-                                        <Link href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
+                                        <Link legacyBehavior href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
                                             <a className="axil-button btn-large btn-transparent">
                                                 <span className="button-text">Read Case Study</span>
                                                 <span className="button-icon"/>

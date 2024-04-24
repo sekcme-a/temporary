@@ -35,7 +35,7 @@ const BrandOne = ({
               <ul className="brand-list liststyle d-flex flex-wrap justify-content-center">
                 {brands?.map((brand, index) => (
                   <li key={`brand-${index}`}>
-                    <Link href="#">
+                    <Link legacyBehavior href="#">
                       <a>
                         <Image
                             width={brand.image.width}

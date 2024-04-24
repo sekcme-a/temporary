@@ -115,7 +115,7 @@ const ServiceTwo = () => {
                                         </div>
                                         <div className="content">
                                             <h4 className="title">
-                                                <Link
+                                                <Link legacyBehavior
                                                     href={`/services/${camelCaseToDashed(service.category)}/${service.slug}`}>
                                                     {`${index + 1}. ${service.title}`}
                                                 </Link>
